@@ -2,9 +2,9 @@
 CYAN='\033[1;36m'
 PURPLE='\033[1;35m'
 WHITE='\033[0;37m'
-RED='\033[1;33m'
+YELLOW='\033[1;33m'
 
-echo -e "${PURPLE}Installing .tmux.conf...${RED}"
+echo -e "${PURPLE}Installing .tmux.conf...${YELLOW}"
 ln -s ~/.tmux/tmux.conf ~/.tmux.conf
 
 if [ "$?" -ne "0" ]; then

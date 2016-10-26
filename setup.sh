@@ -15,4 +15,4 @@ fi
 
 echo -e "${PURPLE}Setting tmux source...${WHITE}"
 tmux source-file ~/.tmux.conf > /dev/null
-echo -e "${CYAN}Success!"
+echo -e "${CYAN}Success!${WHITE}"
